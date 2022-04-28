@@ -5,9 +5,9 @@ function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path='/' element={Landing} />
-        <Route path='/login' element={Login} />
-        <Route path='/register' element={Register} />
+        <Route path='/' element={<Landing />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
       </Routes>
     </div>
   );

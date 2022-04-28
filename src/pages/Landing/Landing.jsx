@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <Layout>
       <Header />
-      <p>Landing Page</p>;
+      <p>Landing Page</p>
     </Layout>
   );
 };
