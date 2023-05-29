@@ -18,6 +18,11 @@ function App() {
         <Crown /> <span>Redberry Knight Cup</span>
       </div>
       <Routes>
+
+
+
+
+        
         <Route path='/' element={<LandingPage />} />
         <Route path='/personal-information' element={<PersonalInformation />} />
         <Route path='/chess-experience' element={<ChessExperience />} />
